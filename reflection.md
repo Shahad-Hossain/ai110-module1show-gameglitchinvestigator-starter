@@ -8,15 +8,17 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+  The game ran fine on the streamlit but it ran into some logical errors. For instance the secret was 40 and when I entered 50 output was go higher. Then when I entered 39 it said to go lower. So the hint system does not work. Then I entered the correct secret 40 the score in the developer system was -10 but the final score I got was 20.
+
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| ----- | ----------------- | --------------- | ---------------------- |
+| 39          Go higher         Go lower              N/A
+| 123123oweingoierngoserg Not a number Used an attempt N/A
+| New Game Button New game starts no new game N/A
 
 ---
 
