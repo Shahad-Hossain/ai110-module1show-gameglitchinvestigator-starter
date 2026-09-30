@@ -28,6 +28,11 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion you did not accept as written (including what the AI suggested, why you rejected or changed it, and how you verified your version). It does not have to be a suggestion that was wrong: over-engineered, out of scope, harder to read, or a poor fit for this codebase all count.
 
+- I used claude for this specific project. 
+- The AI determined that the output for the higher/lower was backwards and should be inverted. I asked the AI to apply the simplest change to fix it and it did so. 
+- In this specific case I didn't have to reject anything that the AI did because the answers were simple and it worked in testing.
+
+
 ---
 
 ## 3. Debugging and testing your fixes
@@ -36,6 +41,7 @@ Document at least 3 bugs you found. Add rows as needed.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
+
 
 ---
 

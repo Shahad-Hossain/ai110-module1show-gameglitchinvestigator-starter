@@ -1,11 +1,15 @@
 def get_range_for_difficulty(difficulty: str):
     """Return (low, high) inclusive range for a given difficulty."""
+    # Fixed using Claude: Hard's range (1-50) used to be narrower than
+    # Normal's (1-100), making Normal the harder of the two to guess (a
+    # bigger range is what makes a guess harder). Ranges now widen with
+    # difficulty: Easy < Normal < Hard.
     if difficulty == "Easy":
         return 1, 20
     if difficulty == "Normal":
-        return 1, 100
-    if difficulty == "Hard":
         return 1, 50
+    if difficulty == "Hard":
+        return 1, 100
     return 1, 100
 
 
