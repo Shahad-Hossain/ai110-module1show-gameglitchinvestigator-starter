@@ -42,12 +42,18 @@ Document at least 3 bugs you found. Add rows as needed.
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+- I tested out the specific bug in the streamlit to make sure it was fixed. 
+- One test I ran was the lower test to make sure the message really said lower and it showed that it properly outputted lower when needed.
+- AI helped design tests for new bugs it was fixing. I told it to make new test cases and document any changes in the codebase it made.
 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+
+- Anytime you interact with a button or an object in streamlit it reruns your entire python script from line 1 to the end 
+- Session states are new sessions for any new person interacting with your streamlit app. So if 5 different people open your streamlit app they all have different sessions to make sure they don't interfere with each other.
 
 ---
 
@@ -57,3 +63,7 @@ Document at least 3 bugs you found. Add rows as needed.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+- One habit is using test cases for my code. Oftentimes I just think my code works for the basic cases and think it works all the time.
+- One thing I will do differently using AI on a coding task is asking what they think the problem is and give different solutions from which I can choose so it implements the best possible solution.
+- I always thought AI generated code was messy and buggy but with proper prompting and testing it is possible to build larger scale apps with AI now.
